@@ -17,7 +17,7 @@ EXPOSE 6514/tcp
 
 ADD build_container.sh /
 ADD Dockerfile /
-ADD README /
+ADD README.md /
 
 ENTRYPOINT ["/usr/sbin/syslog-ng", "-F"]
 
