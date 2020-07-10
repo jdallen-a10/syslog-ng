@@ -3,7 +3,7 @@ Docker container version of syslog-ng
 
 Run like so:
 
-docker create -it \
+docker run -d --restart=always \
    --name syslog \
    -p 514:514/udp \
    -p 601:601/tcp \
