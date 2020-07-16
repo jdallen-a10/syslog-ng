@@ -10,5 +10,5 @@ docker run -d --restart=always \
    -p 6514:6514/tcp \
    -v $(pwd)/syslog/syslog-ng.conf:/etc/syslog-ng/syslog-ng.conf \
    -v $(pwd)/syslog:/var/log \
-   jdallen/syslog-ng
+   a10networks/syslog-ng
 
